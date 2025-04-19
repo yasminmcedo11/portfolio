@@ -1,4 +1,3 @@
-import "../styles/globals"
 
 export default function RootLayout({
   children,

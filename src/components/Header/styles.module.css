@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.header {
+    height: 200pxrem;
+    padding: 35px 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+}
+
+.nome {
+    color: #000000;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.container > div > a {
+    text-decoration: none;
+    color: #050505;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.contato {
+    width: 126px;
+    height: 45px;
+    border-radius: 9px;
+    border: 2px solid #484E53;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #484E53;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.modo {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modo > img {
+    width: 30px;
+    height: 30px;
+}
