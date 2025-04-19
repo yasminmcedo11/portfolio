@@ -1,0 +1,15 @@
+.contato {
+    width: 126px;
+    height: 45px;
+    border-radius: 9px;
+    border: 2px solid #484E53;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #484E53;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    background-color: transparent;
+}

@@ -1,11 +1,8 @@
-"use client"
-import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
 import styles from "./styles.module.css"
+import ContactButton from "../Buttons/ContactButtons";
 
 export default function Header() {
-    const contato = useScroll<HTMLElement>() 
-
     return (
         <header className={styles.header}>
             <nav  className={styles.container}>
@@ -24,9 +21,7 @@ export default function Header() {
                         Projetos
                     </Link> 
                 </div>
-                <button onClick={contato.scrollTo} className={styles.contato}>
-                    Contato
-                </button>
+                <ContactButton/>
                 <button className={styles.modo}>
                     <img src="iconModoEscuro.png" alt="Botaõ de Modo Escuro/Claro"/>
                 </button>
