@@ -5,6 +5,7 @@ import Home from "@/components/Home";
 import SobreMim from "@/components/SobreMim";
 import Footer from "@/components/Footer";
 import Contato from "@/components/Contato";
+import Projetos from "@/components/Projetos";
 
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Header/>
       <Home/>
       <SobreMim/>
+      <Projetos/>
       <Contato/>
       <Footer/>
     </>
