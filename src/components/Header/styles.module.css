@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 .header {
-    height: 200pxrem;
-    padding: 35px 80px;
+    margin: 25px 70px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    padding: 15px;
     gap: 120px;
     align-items: center;
+    border: 2px solid #37b2eb;
+    border-radius: 12px;
 }
 
 .nome {

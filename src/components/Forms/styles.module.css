@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container > h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -3%;
+    font-family: 'Inter', sans-serif;
+}
+
+.container > input {
+    width: 496px;
+    height: 45px;
+    border: 1px solid #484E53;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.container > input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+}
+
+.container > select {
+    width: 496px;
+    height: 45px;
+    border: 1px solid #484E53;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+}
+
+.option {
+    color: #282938;
+    font-weight: 500;
+}
+
+.container > textarea {
+    width: 496px;
+    height: 130px;
+    border: 1px solid #484E53;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.container > button {
+    width: 496px;
+    height: 45px;
+    background-color: #484E53;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
