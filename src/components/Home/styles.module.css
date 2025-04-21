@@ -3,8 +3,8 @@
 .section {
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    margin: 40px 220px;
+    gap: 2.1875rem;
+    margin: 2.5rem 13.75rem;
     justify-content: center;
     align-items: center;
 }
@@ -12,7 +12,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9375rem;
     justify-content: center;
     align-items: center;
 }
@@ -25,7 +25,7 @@
 
 .container > h2 {
     color: #484E53;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     line-height: 100%;
@@ -33,7 +33,7 @@
 }
 
 .container > h3 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 100%;
@@ -46,7 +46,7 @@
 }
 
 .container > p {
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 30px;
@@ -60,5 +60,5 @@
     height: 55px !important;
     border: 1px solid #484E53 !important;
     border-radius: 75px !important;
-    font-size: 15px !important;
+    font-size: 0.9375rem !important;
 }

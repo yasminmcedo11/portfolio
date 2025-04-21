@@ -3,12 +3,12 @@
 .button {
     width: 193px;
     height: 55px;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 50px;
     border: 1px solid #484E53;
     font-family: 'Inter', sans-serif;
     color: #484E53;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0%;
