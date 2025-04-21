@@ -11,11 +11,15 @@ export default function Projetos() {
                 <h3>Um pouco do meu trabalho</h3>
             </div>
             <div className={styles.buttons}>
-                <ProjectButtons text="Machine learning"/>
-                <ProjectButtons text="Sql"/>
-                <ProjectButtons text="Power BI"/>
-                <ProjectButtons text="Python"/>
-                <ProjectButtons text="TypeScript"/>
+                <div> 
+                    <ProjectButtons text="Machine learning"/>
+                    <ProjectButtons text="Sql"/>
+                    <ProjectButtons text="Power BI"/>
+                </div>
+                <div>
+                    <ProjectButtons text="Python"/>
+                    <ProjectButtons text="TypeScript"/>
+                </div>
             </div>
             <div className={styles.cards}>
                 <CardProjeto/>
