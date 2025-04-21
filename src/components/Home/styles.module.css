@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 2.1875rem;
-    margin: 2.5rem 13.75rem;
+    margin: 1.5625rem 4.375rem;
     justify-content: center;
     align-items: center;
 }
@@ -53,6 +53,8 @@
     letter-spacing: 0%;
     color: #484E53;
     word-wrap: break-word;
+    margin: 0 auto;          /* centraliza horizontalmente */
+    text-align: center;
 }
 
 .button {
@@ -61,4 +63,14 @@
     border: 1px solid #484E53 !important;
     border-radius: 75px !important;
     font-size: 0.9375rem !important;
+}
+
+@media (max-width: 500px) {
+    .section {
+        margin: 1.5625rem 2.5rem;
+    }
+
+    .container > h2 {
+        margin-left: 5.225rem;
+    }
 }
