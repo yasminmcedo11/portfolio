@@ -5,7 +5,7 @@ export default function Servicos() {
     return (
         <section className={styles.section}>
             <div className={styles.titulo}>
-                <h2>O que eu faço</h2>
+                <h2>O que faço</h2>
                 <h3>Meus serviços</h3>
             </div>
             <div className={styles.container}>

@@ -64,3 +64,13 @@
     height: 218px;
     border-radius: 10px;
 }
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .comFoto {
+        width: 289px;
+        height: 531px;
+    }
+}
