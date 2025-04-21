@@ -11,3 +11,9 @@
     line-height: 154%;
     letter-spacing: 2.5%;
 }
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 20px;
+    }
+}
