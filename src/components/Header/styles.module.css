@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
 .header {
-    margin: 1.5625rem 4.375rem;
+    padding: 0.9375rem 4.375rem;
+    border-radius: 12px;
 }
 
 .container {
@@ -11,13 +12,12 @@
     padding: 0.9375rem;
     gap: 7.5rem;
     align-items: center;
-    border: 2px solid #37b2eb;
     border-radius: 12px;
 }
 
 .nome {
     color: #000000;
-    font-family: 'Oleo Script', sans-serif;
+    font-family: 'Oleo Script', cursive;
     font-size: 2rem;
     font-weight: 400;
     line-height: 100%;
@@ -68,4 +68,54 @@
 .modo > img {
     width: 30px;
     height: 30px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .header {
+        padding: 1.5625rem 2.5rem;
+        background-color: #ccd8e2;
+    }
+
+    .expanded {
+        height: 250px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .modo {
+        display: none;
+    }
+
+    .container > div {
+        display: none;
+
+        &.ativo {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: transparent;
+            margin: 25px 0px;
+            gap: 25px;
+        }
+
+        &.ativo > a {
+            font-weight: 500;
+        }
+    }
 }
