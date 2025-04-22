@@ -1,14 +1,15 @@
+import Projeto from "@/types/Projeto"
 import styles from "./styles.module.css"
 
-export default function CardProjeto() {
+export default function CardProjeto(props: Projeto) {
     return (
         <>
             <div className={styles.container}>
-                <img src="imageExample.png" alt="Imagem do Projeto"/>
+                <img src={props.photo} alt="Imagem do Projeto"/>
                 <div>
-                    <h2>Project Name/description</h2>
+                    <h2>{props.title}</h2>
                     <div className={styles.info}>
-                        <p>Technology used</p>
+                        <p>{props.tecnology}</p>
                         <img src="sendButton.png" alt="Botao de Enviar"/>
                     </div>
                 </div>

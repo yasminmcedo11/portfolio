@@ -15,6 +15,11 @@
     cursor: pointer;
 }
 
+.active {
+    background-color: #484E53;
+    color: #F5F5F5;
+}
+
 @media (max-width: 500px) {
     .button {
         height: 2.4375rem;
