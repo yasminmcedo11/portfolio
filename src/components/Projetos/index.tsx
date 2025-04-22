@@ -7,12 +7,12 @@ import CardProjeto from "../CardProjeto"
 import styles from "./styles.module.css"
 import { useEffect, useState } from "react"
 
-type Tecnologia = "Machine learning" | "Sql" | "Power BI" | "TypeScript" | "TypeScript" | "Python"
 
 export default function Projetos() {
     const { projetos, getProjetos, filterByTecnology } = useProjeto()
-    const [tecnology, setTecnology] = useState<Tecnologia | string>("Machine learning")
+    const [tecnology, setTecnology] = useState<string>("Machine learning")
     const [isActive, setIsActive] = useState<string>("Machine learning")
+    const [visibleProjects, setVisibleProjects] = useState<number>(6)
 
     useEffect(() => {
         getProjetos()
@@ -22,14 +22,19 @@ export default function Projetos() {
     useEffect(() => {
         if (tecnology) {
           filterByTecnology(tecnology)
+          setVisibleProjects(6)
         }
     }, [tecnology])
 
-    function handleClick(tech: Tecnologia | string) {
+    function handleClick(tech: string) {
         setTecnology(tech)
         setIsActive(tech)
+        setVisibleProjects(6)
     }
 
+    function handleShowMore() {
+        setVisibleProjects(projetos.length)
+    }
 
     return (
         <section className={styles.section}>
@@ -69,7 +74,7 @@ export default function Projetos() {
                 </div>
             </div>
             <div className={styles.cards}>
-                {projetos.map((projeto, index) => (
+                {projetos.slice(0, visibleProjects).map((projeto, index) => (
                     <CardProjeto 
                         key={index}
                         id={projeto.id} 
@@ -78,7 +83,9 @@ export default function Projetos() {
                         photo={projeto.photo} />
                 ))}
             </div>
-            <ShowMoreButton/>
+            {visibleProjects < projetos.length && ( 
+                <ShowMoreButton onClick={handleShowMore} />
+            )}
         </section>
     )
 }

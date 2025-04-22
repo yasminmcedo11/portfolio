@@ -2,9 +2,13 @@
 
 import styles from "./styles.module.css"
 
-export default function ShowMoreButton() {
+interface ShowMoreButtonProps {
+    onClick: () => void
+}
+
+export default function ShowMoreButton(props: ShowMoreButtonProps) {
     return (
-        <button className={styles.button}>
+        <button className={styles.button} onClick={props.onClick}>
             Ver Tudo
         </button>
     )
