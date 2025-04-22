@@ -39,6 +39,12 @@
     font-weight: 500;
     line-height: 100%;
     letter-spacing: 0%;
+
+    &:hover{
+        padding-bottom: 3px;
+        border-bottom: 4px solid black;
+        transition: border-color 0.3s ease;
+    }
 }
 
 .contato {
