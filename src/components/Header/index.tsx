@@ -18,6 +18,7 @@ export default function Header() {
                     <Link href="#sobre-mim">Sobre Mim</Link>
                     <Link href="#servicos" >Serviços</Link>
                     <Link href="#projetos" >Projetos</Link> 
+                    <Link href="#contato" className={styles.showContato}>Contato</Link> 
                 </div>
                 <ContactButton className={styles.button}/>
                 <button className={styles.modo}>

@@ -80,6 +80,10 @@
     display: none;
 }
 
+.showContato {
+    display: none;
+}
+
 
 
 
@@ -90,7 +94,7 @@
     }
 
     .expanded {
-        height: 250px;
+        height: 290px;
     }
 
     .hamburger {
@@ -103,6 +107,10 @@
 
     .modo {
         display: none;
+    }
+
+    .showContato {
+        display: flex;
     }
 
     .container > div {
