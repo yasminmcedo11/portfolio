@@ -5,169 +5,103 @@
             "id": 1,
             "title": "Ecommerce de Livros",
             "tecnology": "React",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "photo": "https://s2-g1.glbimg.com/wDkqXDvuZhv5qpzIwjVHJpdguxw=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/B/R/9shx2YSsOHCoRigcbEmQ/bdbr-limpo-20230522-0745-frame-172577.jpeg"
         },
         {
             "id": 2,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Ecommerce de Pijamas",
+            "tecnology": "React",
+            "photo": "https://www.lojavirtual.com.br/guia/img/posts/dorme-de-pijama-loja.webp"
         }, 
         {
             "id": 3,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Feed de Rede Social",
+            "tecnology": "React",
+            "photo": "https://gazetadocerrado.com.br/wp-content/uploads/2021/03/gravvity.jpg"
         }, 
         {
             "id": 4,
             "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "tecnology": "Next",
+            "photo": "https://s2-g1.glbimg.com/wDkqXDvuZhv5qpzIwjVHJpdguxw=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/B/R/9shx2YSsOHCoRigcbEmQ/bdbr-limpo-20230522-0745-frame-172577.jpeg"
         },
         {
             "id": 5,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Site de Portfólio",
+            "tecnology": "Next",
+            "photo": "https://elements-resized.envatousercontent.com/elements-cover-images/eb20665c-8dda-4cfc-9840-8b30b5da45f4?w=433&cf_fit=scale-down&q=85&format=auto&s=e51923878936d961d5663354b661c60c607e01c6a31d1574c6d07f6a815b14f9"
         }, 
         {
             "id": 6,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Calculadora de Médias",
+            "tecnology": "CSS",
+            "photo": "https://repository-images.githubusercontent.com/231288757/92d4f780-2cfd-11ea-8558-d679a9976814"
         }, 
         {
             "id": 7,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Página Pessoal",
+            "tecnology": "CSS",
+            "photo": "https://elements-resized.envatousercontent.com/elements-cover-images/eb20665c-8dda-4cfc-9840-8b30b5da45f4?w=433&cf_fit=scale-down&q=85&format=auto&s=e51923878936d961d5663354b661c60c607e01c6a31d1574c6d07f6a815b14f9"
         },
         {
             "id": 8,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Painel de Vendas de Loja Virtual",
+            "tecnology": "Power BI",
+            "photo": "https://xperiun.com/wp-content/uploads/2023/04/DASHBOARD_DE_VENDAS1-1024x574.png"
         }, 
         {
             "id": 8,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Análise de Pesquisa de Satisfação",
+            "tecnology": "Power BI",
+            "photo": "https://i.ytimg.com/vi/hr3gZUdErIw/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgTCh_MA8=&rs=AOn4CLAnUoBRnbwW0UUNf0-rfc_H4F9sSQ"
         }, 
         {
             "id": 10,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Dashboard de RH",
+            "tecnology": "Power BI",
+            "photo": "https://learn.microsoft.com/pt-br/power-bi/create-reports/media/sample-human-resources/hr-1.png"
         }, 
         {
             "id": 11,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Bot de WhatsApp",
+            "tecnology": "Python",
+            "photo": "https://cdn.prod.website-files.com/5e42772e6a8cfd42a9715206/66e82d4b206b53726eaaee18_663a587ee5bb743e4b3563b7_Screenshot%25202024-05-07%2520at%252017.34.35.png"
         }, 
         {
             "id": 12,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Machine learning",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Gerador de Senhas Seguras",
+            "tecnology": "Python",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Cypz0ucY5iFIwc_Zok1gaixgFwyDZFOW_Q&s"
         }, 
         {
             "id": 13,
-            "title": "Ecommerce de Livros",
-            "tecnology": "React",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Plataforma de Cursos Online",
+            "tecnology": "Next",
+            "photo": "https://neilpatel.com/wp-content/uploads/2019/11/1591820954622_hello-bar-samba-play-700x354.png"
         }, 
         {
             "id": 14,
-            "title": "Ecommerce de Livros",
+            "title": "Plataforma de Reviews de Jogos",
             "tecnology": "React",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "photo": "https://store.fastly.steamstatic.com/public/images/promo/reviews/feature_browse.jpg"
         }, 
         {
             "id": 15,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Next",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Loja de Produtos de Arte",
+            "tecnology": "React",
+            "photo": "https://img.elo7.com.br/product/zoom/4919409/30-artes-loja-de-acessorios-editaveis-no-canva-digital.jpg"
         }, 
         {
             "id": 16,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Next",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "title": "Dashboard de Vendas",
+            "tecnology": "React",
+            "photo": "https://media.licdn.com/dms/image/v2/C4E12AQGXIS9auWIRIA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1620573051808?e=2147483647&v=beta&t=cDMatKxdknzK2Ys1kaCGqNnTLMet2qNPTXIaE3WCoKo"
         }, 
         { 
             "id": 17,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Sql",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 18,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Sql",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 19,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Sql",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        },
-        {
-            "id": 20,
-            "title": "Ecommerce de Livros",
+            "title": "Site de Receitas",
             "tecnology": "React",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 21,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Excel",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 22,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Excel",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 23,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Excel",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 24,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Excel",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 25,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Sql",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        },
-        {
-            "id": 26,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Next",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        { 
-            "id": 27,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Next",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
-        }, 
-        {
-            "id": 28,
-            "title": "Ecommerce de Livros",
-            "tecnology": "Next",
-            "photo": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+            "photo": "https://mesaquemota.com.br/wp-content/uploads/2023/10/como-criar-um-site-de-receitas-e-culinaria-profissional-com-wordrpess-800x450.webp"
         }
     ]
 }

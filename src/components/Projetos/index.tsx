@@ -10,8 +10,8 @@ import { useEffect, useState } from "react"
 
 export default function Projetos() {
     const { projetos, getProjetos, filterByTecnology } = useProjeto()
-    const [tecnology, setTecnology] = useState<string>("Machine learning")
-    const [isActive, setIsActive] = useState<string>("Machine learning")
+    const [tecnology, setTecnology] = useState<string>("React")
+    const [isActive, setIsActive] = useState<string>("React")
     const [visibleProjects, setVisibleProjects] = useState<number>(6)
 
     useEffect(() => {
@@ -45,31 +45,31 @@ export default function Projetos() {
             <div className={styles.buttons}>
                 <div> 
                     <ProjectButtons 
-                        text="Machine learning" 
-                        selectTech={handleClick} 
-                        onActive={isActive === "Machine learning"}
-                    />
-                    <ProjectButtons 
-                        text="Sql" 
-                        selectTech={handleClick} 
-                        onActive={isActive === "Sql"}
-                    />
-                    <ProjectButtons 
                         text="React" 
                         selectTech={handleClick} 
                         onActive={isActive === "React"}
                     />
-                </div>
-                <div>
                     <ProjectButtons 
-                        text="Excel" 
+                        text="CSS" 
                         selectTech={handleClick} 
-                        onActive={isActive === "Excel"}
+                        onActive={isActive === "CSS"}
                     />
                     <ProjectButtons 
                         text="Next" 
                         selectTech={handleClick} 
                         onActive={isActive === "Next"}
+                    />
+                </div>
+                <div>
+                    <ProjectButtons 
+                        text="Python" 
+                        selectTech={handleClick} 
+                        onActive={isActive === "Python"}
+                    />
+                    <ProjectButtons 
+                        text="Power BI" 
+                        selectTech={handleClick} 
+                        onActive={isActive === "Power BI"}
                     />
                 </div>
             </div>

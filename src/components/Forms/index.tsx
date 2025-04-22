@@ -18,9 +18,9 @@ export default function Forms() {
             <h3>Serviço</h3>
             <select defaultValue="">
                 <option value="" disabled>Selecione um Serviço</option>
-                <option value="maça">Maçã</option>
-                <option value="banana">Banana</option>
-                <option value="laranja">Laranja</option>
+                <option value="Desenvolvimento Frontend">Desenvolvimento Frontend</option>
+                <option value="Ciência de Dados">Ciência de Dados</option>
+                <option value="Automação de Tarefas">Automação de Tarefas</option>
             </select>
             <h3>Mensagem</h3>
             <textarea></textarea>

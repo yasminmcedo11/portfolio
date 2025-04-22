@@ -8,17 +8,27 @@ export default function SobreMim() {
                 <h3>Conheça mais sobre mim</h3>
             </div>
             <p>
-                Hi there! I'm [Your Name], a data scientist specializing in data analytics, predictive modeling, 
-                natural language processing, machine learning, and AI chatbots. With a passion for unraveling insights
-                from complex datasets, I'm dedicated to helping businesses make informed decisions and stay ahead in
-                today's data-driven world.
-
-                I bring a blend of technical expertise, hands-on experience, and a commitment to clear communication 
-                to every project. Whether it's uncovering hidden patterns, predicting future trends, or automating 
-                processes with AI, I'm here to help you harness the full potential of your data.
-
-                Let's work together to transform your data into actionable insights that drive real results. 
-                Get in touch, and let's start unlocking the power of your data today!
+                Olá! Me chamo Yasmin e sou uma desenvolvedora frontend apaixonada por tecnologia, design e soluções 
+                que conectam pessoas. Desde cedo, sempre fui curiosa sobre como as coisas funcionam — especialmente no 
+                mundo digital — o que me levou a trilhar o caminho da Ciência da Computação, curso que atualmente estou 
+                fazendo na Universidade Federal Fluminense (UFF).
+                <br/>
+                Minha jornada na programação começou com a resolução de simples exercícios de lógica, onde descobri
+                o prazer de pensar de forma estruturada e criativa para resolver problemas. Com o tempo, fui me 
+                interessando cada vez mais pelas áreas de dados e inteligência artificial, fascinada pela forma como 
+                a tecnologia pode automatizar tarefas, extrair padrões e facilitar nosso dia a dia de maneira 
+                inteligente e eficiente.
+                <br/>
+                Foi durante a faculdade que tive meu primeiro contato com o desenvolvimento web — e ali nasceu uma 
+                nova paixão. Enxerguei no frontend uma maneira poderosa de transformar ideias em experiências 
+                interativas e acessíveis. Desde então, venho me especializando na criação de interfaces modernas, 
+                funcionais e visualmente agradáveis, utilizando tecnologias como TypeScript, React, Next.js, CSS
+                e outras ferramentas que dão vida às aplicações web.
+                <br/>
+                Minhas maiores motivações estão em aprender continuamente, colaborar com projetos significativos e 
+                fazer parte de soluções que causem mudanças positivas. Sigo em busca de evoluir como profissional, 
+                explorando novas tecnologias, e, principalmente, como pessoa — sempre com vontade de criar, 
+                compartilhar e construir junto.
             </p>
         </section>
     )

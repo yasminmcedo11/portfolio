@@ -12,50 +12,46 @@ export default function Servicos() {
                 <div>
                     <CardServico.Root>
                         <CardServico.Content 
-                            title=" Data Analytics & Visualization" 
+                            title="React" 
                             archiveName="iconIdeia.png"
-                            text="From data inception to actionable insights, I design compelling 
-                            analytics and visualization solutions that illuminate trends, empower decision-making, and 
-                            drive your business forward."
+                            text="Transformo ideias em interfaces dinâmicas e responsivas utilizando o React.
+                            Com foco na experiência do usuário, construo aplicações web eficientes, escaláveis e visualmente envolventes."
                         />
                     </CardServico.Root>
                     <CardServico.Root>
                         <CardServico.Content 
-                            title=" Data Analytics & Visualization" 
+                            title="TypeScript" 
                             archiveName="iconIdeia.png"
-                            text="From data inception to actionable insights, I design compelling 
-                            analytics and visualization solutions that illuminate trends, empower decision-making, and 
-                            drive your business forward."
+                            text="Utilizando o TypeScript, trago mais segurança, confiabilidade e clareza ao 
+                            desenvolvimento frontend. Ao tipar cada parte da aplicação, reduzo erros e melhoro a produtividade."
                             />
                     </CardServico.Root>
                     <CardServico.Root>
                         <CardServico.Content 
-                            title=" Data Analytics & Visualization" 
+                            title="CSS" 
                             archiveName="iconIdeia.png"
-                            text="From data inception to actionable insights, I design compelling 
-                            analytics and visualization solutions that illuminate trends, empower decision-making, and 
-                            drive your business forward."
+                            text="Com domínio de CSS, dou vida às interfaces com layouts responsivos, animações sutis 
+                            e uma estética que valoriza a identidade visual de cada projeto. "
                         />
                     </CardServico.Root>
                 </div>
                 <div>
                     <CardServico.Root hasPhoto={true}>
                         <CardServico.Content 
-                            title=" Data Analytics & Visualization" 
+                            title="Ciência de Dados" 
                             archiveName="iconRobo.png"
-                            text="From data inception to actionable insights, I design compelling 
-                            analytics and visualization solutions that illuminate trends, empower decision-making, and 
-                            drive your business forward."
+                            text="Exploro dados com um olhar analítico e estratégico, transformando números em narrativas 
+                            claras e relevantes. Da coleta à visualização, aplico técnicas de ciência de dados para extrair 
+                            padrões, gerar insights e apoiar decisões inteligentes."
                         />
-                        <CardServico.Photo photo="fotoPerfil.png"/>
+                        <CardServico.Photo photo="dadosIcone.png"/>
                     </CardServico.Root>
                     <CardServico.Root>
                         <CardServico.Content 
-                            title=" Data Analytics & Visualization" 
+                            title="Python" 
                             archiveName="iconRobo.png"
-                            text="From data inception to actionable insights, I design compelling 
-                            analytics and visualization solutions that illuminate trends, empower decision-making, and 
-                            drive your business forward."
+                            text="Utilizo o Python como ferramenta para automatizar processos e analisar dados com eficiência, 
+                            desde scripts simples até o tratamento de grandes volumes de informação."
                         />
                     </CardServico.Root>
                 </div>

@@ -12,9 +12,13 @@ export default function Home() {
             <div className={styles.container}>
                 <h3>Desenvolvedora Frontend</h3>
                 <p>
-                    As a passionate data scientist, with expertise in machine learning, AI, and data analytics, I thrive 
-                    on the challenges of exploring complex data landscapes and uncovering meaningful patterns that drive 
-                    innovation
+                    Sou uma desenvolvedora frontend dedicada a criar experiências digitais modernas, funcionais 
+                    e intuitivas. Ao longo da minha trajetória, desenvolvi habilidades em tecnologias como 
+                    CSS, React, Next.js e outras ferramentas essenciais do desenvolvimento web. Além disso, sou uma 
+                    grande entusiasta da área de dados — gosto de explorar visualizações, insights e como a informação
+                    pode contar histórias de forma inteligente.
+
+
                 </p>
             </div>
             <ContactButton className={styles.button}/>
