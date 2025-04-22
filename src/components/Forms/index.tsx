@@ -16,11 +16,11 @@ export default function Forms() {
                 placeholder="example@email.com"
             />
             <h3>Serviço</h3>
-            <select>
-                <option value="" disabled selected>Selecione um Serviço</option>
-                <option value="maça" className={styles.option}>Maçã</option>
-                <option value="banana" className={styles.option}>Banana</option>
-                <option value="laranja" className={styles.option}>Laranja</option>
+            <select defaultValue="">
+                <option value="" disabled>Selecione um Serviço</option>
+                <option value="maça">Maçã</option>
+                <option value="banana">Banana</option>
+                <option value="laranja">Laranja</option>
             </select>
             <h3>Mensagem</h3>
             <textarea></textarea>
