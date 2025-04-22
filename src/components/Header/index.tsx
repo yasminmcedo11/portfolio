@@ -14,10 +14,10 @@ export default function Header() {
             <nav  className={styles.container}>
                 <h2 className={styles.nome}>Yasmin Macedo</h2>
                 <div className={`${styles.links} ${openMenu ? styles.ativo : ''}`}>
-                    <Link href="#">Home</Link>
-                    <Link href="#">Sobre Mim</Link>
-                    <Link href="#" >Serviços</Link>
-                    <Link href="#" >Projetos</Link> 
+                    <Link href="#home">Home</Link>
+                    <Link href="#sobre-mim">Sobre Mim</Link>
+                    <Link href="#servicos" >Serviços</Link>
+                    <Link href="#projetos" >Projetos</Link> 
                 </div>
                 <ContactButton className={styles.button}/>
                 <button className={styles.modo}>

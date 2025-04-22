@@ -1,9 +1,10 @@
 import Forms from "../Forms"
 import styles from "./styles.module.css"
 
+
 export default function Contato() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="contato">
             <h2>Vamos trabalhar juntos?</h2>
             <div>
                 <div className={styles.container}>

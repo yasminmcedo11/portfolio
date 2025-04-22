@@ -37,7 +37,7 @@ export default function Projetos() {
     }
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="projetos">
             <div className={styles.titulo}>
                 <h2>Projetos</h2>
                 <h3>Um pouco do meu trabalho</h3>

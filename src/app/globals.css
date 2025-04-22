@@ -4,4 +4,10 @@ body {
     background-color: #E0E8F6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
+section {
+    scroll-margin-top: 3.4375rem; 
+}

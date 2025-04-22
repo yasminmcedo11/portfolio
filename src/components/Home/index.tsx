@@ -4,7 +4,7 @@ import styles from "./styles.module.css"
 
 export default function Home() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="home">
             <div className={styles.container}>
                 <img src="fotoPerfil.png" alt="Foto de Perfil"/>
                 <h2>Yasmin Macedo</h2>
